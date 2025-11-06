@@ -7,20 +7,21 @@ The official repository for M-AIDE: Mechanistic Agentic Interpretability for Dec
 ## Installation
 To set up the repository on your local machine:
 
-```
 1. Clone the repository:
 ```
    git clone https://github.com/ai-voyage/M-AIDE.git
    cd M-AIDE
 ```
-2. Create a virtual environment and install dependencies
+  2. Create a virtual environment and install dependencies
 ```
-  conda create -n your_env_name python=3.10
-  conda activate your_env_name
+   conda create -n your_env_name python=3.10
+   conda activate your_env_name
 ```
-3. Install dependencies
+ 3. Install dependencies
 ```
   pip install -r requirements.txt
+```
+
 
 ## Usage
 1. Data Preparation:
@@ -29,6 +30,6 @@ To set up the repository on your local machine:
 2. Extract Activations:
    - Run the extraction script:
 ```bash
-exract_activations.py.py
+python exract_activations.py
  ```
 We will use these activations to train the EFD agent.
