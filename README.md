@@ -24,8 +24,8 @@ To set up the repository on your local machine:
 
 ## Usage
 1. Data Preparation:
-   -Download the dataset available at: [E-THER: A Multimodal Dataset for Empathic AI -- Towards Emotional Mismatch Awareness](https://arxiv.org/abs/2509.02100)
-   -Download the therapeutic agent from: [E-THER: A Multimodal Dataset for Empathic AI -- Towards Emotional Mismatch Awareness](https://arxiv.org/abs/2509.02100)
+   - Download the dataset available at: [E-THER: A Multimodal Dataset for Empathic AI -- Towards Emotional Mismatch Awareness](https://arxiv.org/abs/2509.02100)
+   - Download the therapeutic agent from: [E-THER: A Multimodal Dataset for Empathic AI](https://arxiv.org/abs/2509.02100)
 2. Extract Activations:
    - Run the extraction script:
 ```bash
