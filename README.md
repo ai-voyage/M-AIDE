@@ -1,7 +1,7 @@
 # M-AIDE
 The official repository for M-AIDE: Mechanistic Agentic Interpretability for Decoding Empathy in Language Models - IVCNZ2025
 
-![M-AIDE Framework](assets/framework.png)
+![M-AIDE Framework](assets/m_aide_framework.png)
 
 ## Release
 - [6/11/2024] Installation guide and requirements added. The code for training EFD agent and interpretability agent will be released soon.
