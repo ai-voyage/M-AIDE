@@ -1,0 +1,26 @@
+input_dir: "/Path/to/mixtral_residuals_all_layers/"
+
+# Where to save trained model and logs
+output_dir: "/path/to/sae"
+
+tokenized_prompt: "/path/to/activation_token_data_assistant.pt"
+
+activation_mask:
+model:
+  d_in: 4096              # Hidden size of Mixtral
+#  d_hidden: 16384         # Number of SAE features (aka dictionary size)
+  expansion_factor: 4       # Typically 2-8x overcomplete
+  activation: "relu"
+  use_bias: false
+
+training:
+  batch_size: 32
+  lr: 5e-4
+  epochs: 200
+  l1_lambda: 3e-4
+  optimizer: "adam"
+  scheduler: null
+
+seed: 42
+
+
